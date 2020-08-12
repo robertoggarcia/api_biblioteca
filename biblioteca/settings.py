@@ -136,3 +136,6 @@ REST_FRAMEWORK = {
     #    'rest_framework.permissions.IsAuthenticated',
     #]
 }
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+CELERY_BROKER_URL = 'amqp://localhost:5672/'
