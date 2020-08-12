@@ -1,0 +1,18 @@
+## Celery
+
+1. Intalar un broker
+
+Recomendación RabbitMq: https://www.rabbitmq.com/install-debian.html#apt-bintray-quick-start
+
+2. Instalar celery
+`pip install celery`
+
+3. Configurar Celery
+https://docs.celeryproject.org/en/latest/django/first-steps-with-django.html
+
+4. Crear una tarea
+
+5. Creamos la lógica para ejecutar la tarea
+
+6.- Ejecutamos el worker de celery:
+`celery -A biblioteca worker -l info`
